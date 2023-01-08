@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hktranslate *.css
+recursive-include hktranslate *.csv
+recursive-include hktranslate *.html
+recursive-include hktranslate *.ico
+recursive-include hktranslate *.js
+recursive-include hktranslate *.json
+recursive-include hktranslate *.md
+recursive-include hktranslate *.png
+recursive-include hktranslate *.py
+recursive-include hktranslate *.svg
+recursive-include hktranslate *.txt
+recursive-exclude hktranslate *.pyc
